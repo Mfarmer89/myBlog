@@ -1,0 +1,59 @@
+body {
+    background: rgb(240, 242, 245);
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background: white;
+    /* border: solid 5px white; */
+    border-radius: 10px 50px;
+    /* border-style: ridge; */
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 30px 25px 0 25px;
+    padding-left: 20px;
+    height: 250px;
+}
+
+header h3 {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header img {
+    border-radius: 50px;
+    float: right;
+    padding: 10px 20px;
+}
+
+aside {
+    background: white;
+    /* border: solid 5px white; */
+    border-radius: 10px 50px;
+    /* border-style: ridge; */
+    display: block;
+    float: right;
+    margin: 25px 25px 10px 5px;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    width: 18%;
+}
+
+section {
+    background: white;
+    /* border: solid 5px white; */
+    border-radius: 10px 50px;
+    /* border-style: ridge; */
+    font-size: 16px;
+    line-height: 2;
+    margin: 25px 5px 10px 25px;
+    padding: 20px;
+    width:70%
+}
+
+footer a {
+    color: black;
+    margin: 25px;
+}
